@@ -1,4 +1,4 @@
-''' 
+'''   
 This script perfoms the basic process for applying a machine learning
 algorithm to a dataset using Python libraries.
 
@@ -50,11 +50,11 @@ except ImportError:
 
 # =====================================================================
 
-def download_data():
+def download_data():  
     '''
     Downloads the data for this script into a pandas DataFrame.
     '''
-
+    print()
     # If your data is in an Excel file, install 'xlrd' and use
     # pandas.read_excel instead of read_table
     #from pandas import read_excel
